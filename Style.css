@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f9fc;
+}
+.container {
+    width: 400px; /* Ancho máximo del contenedor */
+    margin: 50px auto; /* Centrar el contenedor */
+    background-color: #fff; /* Fondo blanco para el formulario */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 20px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra suave */
+    display: flex; /* Utilizar Flexbox */
+    flex-direction: column; /* Direccionar los elementos en columna */
+    align-items: center; /* Alinear los elementos al centro horizontalmente */
+    
+}
+h1 {
+    color: #ff9100;
+}
+label {
+    margin-top: 5px;
+    font-weight: bold;
+}
+input[type="text"], input[type="number"] {
+    width: 100%; /* Ancho completo */
+    padding: 10px; /* Espaciado interno */
+    margin-top: 5px; /* Espacio superior */
+    box-sizing: border-box; /* Incluir padding en el ancho total */
+    border: 1px solid #ced4da; /* Borde gris */
+    border-radius: 4px; /* Bordes redondeados */
+    text-align: center;
+    flex-direction: column;
+    
+    
+}
+.btn-container {
+    gap: 20px; 
+    margin-top: 30px;
+    width: 100%; /* Ancho completo */
+}
+button {
+    padding: 10px 20px; /* Espaciado interno */
+    cursor: pointer; /* Cursor de puntero */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Bordes redondeados */
+    transition: background-color 0.3s ease, transform 0.3s ease; /
+}
+button:hover {
+    background-color: #0056b3; /* Color de fondo al hacer hover */
+    transform: scale(1.05); /* Escalar ligeramente al hacer hover */
+    
+}
+
+form{
+    width: 250px;
+    text-align: center;
+
+}
